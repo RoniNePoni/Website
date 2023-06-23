@@ -1,0 +1,267 @@
+@media only screen and (min-width: 0px) and (max-width: 414px){
+    
+    body {
+        background-color: black;
+        padding: 0;
+        width: 1440px;
+        overflow-x: hidden;
+    }
+    .cat1 {
+        position: absolute;
+        width: 113vw;
+        height: 117.5vw;
+        top: 5vw;
+        left: -28vw;
+        background-image: url(../images/cat1.png);
+        background-size: cover;
+    }
+    .burger {
+        position: fixed;
+        top: 2vw;
+        right: 24vw;
+        width: 10vw;
+        height: 12vw;
+        background-image: url(../images/burger.svg);
+        background-size: cover;
+        cursor: pointer;
+        z-index: 999;
+    }
+    .menu.open {
+        right: 24vw;
+    }
+    .menu-link {
+        display: block;
+        padding: 0.6vw 0;
+        color: #ffffff;
+        font-family: "GRTSK Tera";
+        font-size: 2vw;
+    }
+
+    .cat2 {
+        position: absolute;
+        width: 91vw;
+        height: 97.5vw;
+        top: 52vw;
+        left: 18vw;
+        background-image: url(../images/cat2.svg);
+        background-size: cover;
+    }
+
+    .oncat1 {
+        position: absolute;
+        top: 15vw;
+        left: 23vw;
+        z-index: 2;
+        width: 101vw;
+        height: 61vw;
+        background-image: url(../images/oncat.gif);
+        background-size: cover;
+        opacity: 100;
+    }
+
+    .oncat2 {
+        position: absolute;
+        top: 81vw;
+        left: 3vw;
+        z-index: 2;
+        width: 67vw;
+        height: 82vw;
+        background-image: url(../images/oncat2.gif);
+        background-size: cover;
+        opacity: 100;
+    }
+
+    .brizg2 {
+    position: absolute;
+    top: 169vw;
+    left: 0vw;
+    z-index: 200;
+    width: 42vw;
+    height: 12vw;
+    background-image: url(../images/brizg2.png);
+    background-size: cover;
+    opacity: 100;
+    }
+
+    .brizg {
+        position: absolute;
+        top: 73vw;
+        left: 44vw;
+        z-index: 200;
+        width: 40vw;
+        height: 35vw;
+        background-image: url(../images/brizg.svg);
+        background-size: cover;
+        opacity: 100;
+    }
+
+    .zagolovok {
+        z-index: 10;
+        font-family: "GRTSK Tera";
+        position: absolute;
+        font-size: 10.2vw;
+        left: 2vw;
+        top: 2vw;
+        color: white;
+    }
+
+    .desc {
+        font-family: "GRTSK Tera";
+        position: absolute;
+        font-size: 4.4vw;
+        line-height: 4.5vw;
+        left: 50vw;
+        top: 83vw;
+        color: white;
+    }
+
+    .desc1 {
+        font-family: "Helvetica";
+        position: absolute;
+        font-size: 3.6vw;
+        line-height: 3.7vw;
+        left: 50vw;
+        top: 97.5vw;
+        color: white;
+        letter-spacing: 0.1vw;
+    }
+
+    .desc2 {
+        font-family: "GRTSK Tera";
+        position: absolute;
+        font-size: 4.4vw;
+        line-height: 4.4vw;
+        left: 13vw;
+        top: 173vw;
+        color: white;
+    }
+
+    .run {
+        font-family: "GRTSK Tera";
+        position: absolute;
+        font-size: 20vw;
+        line-height: 20vw;
+        top: 275vw;
+        color: white;
+    }
+
+    .grid {
+        top: 215vw;
+        width: 117.5vw;
+    height: 18.5vw;
+    }
+
+    .grid22 {
+        top: 233vw;
+        width: 117.5vw;
+    height: 18.5vw;
+    }
+
+    .grid33 {
+        top: 251.1vw;
+        width: 117.5vw;
+    height: 18.5vw;
+    }
+
+    .cat2 {
+        width: 111vw;
+        height: 112.5vw;
+        top: 79vw;
+        left: -9vw;
+    }
+
+    .desc3 {
+        font-family: "Helvetica";
+        position: absolute;
+        font-size: 3.5vw;
+        line-height: 3.6vw;
+        left: 3vw;
+        top: 186.5vw;
+        color: white;
+        letter-spacing: 0.1vw;
+        white-space: nowrap;
+    }
+
+    .gridtext1 {
+        z-index: 50;
+        font-family: "GRTSK Tera";
+        position: absolute;
+        font-size: 4vw;
+        line-height: 4.9vw;
+        left: 2vw;
+        top: 219.3vw;
+        color: white;
+    }
+
+    .gridtext2 {
+        z-index: 50;
+        font-family: "GRTSK Tera";
+        position: absolute;
+        font-size: 4vw;
+        line-height: 4.9vw;
+        left: 2vw;
+        top: 239.3vw;
+        color: white;
+    }
+
+    .gridtext3 {
+        z-index: 50;
+        font-family: "GRTSK Tera";
+        position: absolute;
+        font-size: 4vw;
+        line-height: 4.9vw;
+        left: 2vw;
+        top: 258vw;
+        color: white;
+    }
+
+    .ticket {
+        position: absolute;
+        top: 68vw;
+        rotate: 90deg;
+        left: -46vw;
+        width: 195vw;
+        height: 86vw;
+        background-image: url(../images/ticket.png);
+        background-size: cover;
+        opacity: 100;
+    }
+
+    input[type=text], input[type=tel] {
+        z-index: 2;
+        position: absolute;
+        width: 50.14vw;
+        padding: 1.2vw;
+        padding-left: 2.5vw;
+        display: inline-block;
+        border: 1px solid #fff;
+        background: transparent;
+        font-family: "Helvetica";
+        font-weight: 400;
+        font-size: 5vw;
+        color: #ffffff;
+    }
+
+    input[type=text] {
+        left: 17vw;
+        top: 130vw;
+        letter-spacing: 0.12vw;
+    }
+
+    input[type=tel] {
+        left: 17vw;
+        top: 120vw;
+        letter-spacing: 0.12vw;
+    }
+
+    .reserve {
+        width: 60.14vw;
+        font-size: 5vw;
+        width: 60.14vw;
+        top: 142vw;
+        left: 17vw;
+    
+    }
+    
+}
+

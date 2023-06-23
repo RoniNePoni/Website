@@ -1,0 +1,27 @@
+@import 'reset.css';
+/* главный экран */
+@import 'main.css';
+@import "responsive.css";
+
+@font-face {
+    font-family: "GRTSK Tera";
+    src: url("../fonts/GrtskTera-Medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "GRTSK Tera Regular";
+    src: url("../fonts/GrtskTera-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("../fonts/HelveticaThin.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+
